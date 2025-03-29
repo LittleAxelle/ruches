@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Willkommen im Bienenstand des Fort d'Arches – entdecken Sie die Imkerei, die Biodiversität und das Fort!">
+    <img src="../images/logo.png" alt="Logo du département" id="logo-departement">
+    <title>Der Bienenstand des Fort d'Arches</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Der Bienenstand des Fort d'Arches</h1>
+        <div class="lang-container">
+            <button class="lang-toggle" onclick="switchLanguageFR()">🇫🇷</button>
+            <button class="lang-toggle" onclick="switchLanguageEN()">🇬🇧</button>
+            <button class="lang-toggle" >🇩🇪</button>
+        </div>
+
+        <script>
+            function switchLanguageFR() {
+                window.location.href = "../index.html"; // Change vers le fichier fr
+            }
+        </script>
+        <script>
+            function switchLanguageEN() {
+                window.location.href = "../en/index.html"; // Change vers le fichier de
+            }
+        </script>       
+
+        <nav>
+            <ul>
+                <li><a href="#presentation">Über uns</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#map">Karte</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="presentation">
+        <h2>Über uns</h2>
+        <p>Das Fort d'Arches, gelegen in Pouxeux in den Vogesen, ist eine militärische Festung aus dem 19. Jahrhundert, die als Teil des regionalen Verteidigungssystems errichtet wurde. Dieses Fort, das zur Maginot-Linie gehört, wurde entwickelt, um feindlichen Angriffen standzuhalten und die umliegenden Täler zu schützen. Im Laufe der Zeit erlebte es Phasen des Verfalls und der Umnutzung, bevor es zu einem bedeutenden Ort für Geschichts- und Naturbegeisterte wurde. Heute wurde es in ein Zentrum der Imkerei umgewandelt, in dem Bienen gehalten und ökologische Initiativen zur Erhaltung der lokalen Biodiversität umgesetzt werden.</p>
+    </section>
+    
+    <section id="videos">
+        <h2>Videos</h2>
+        <p>Auf unserem YouTube-Kanal teilen wir unsere Leidenschaft für die Imkerei durch eine Vielzahl von Videos. Egal, ob Sie Anfänger oder erfahrener Imker sind, hier finden Sie Inhalte, die zu Ihrem Niveau und Ihren Interessen passen. Zögern Sie nicht, unseren Kanal zu abonnieren, um uns zu unterstützen – es ist kostenlos und erfordert nur einen Klick!</p>
+        <!-- Ajoutez ici les vidéos avec des balises <iframe> ou <video> -->
+            <div class="video-container"></div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VGP27-P_lmw?si=e6NXCaBhI6L9iLyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <button class="learn-more" onclick="window.location.href='../season1/de/index.html'">Jetzt Staffel 1 ansehen!</button>
+            </div>
+    </section>
+
+    <section id="map">
+        <h2>Wo befindet sich das Fort d'Arches?</h2>
+        <p>Das Fort d'Arches liegt in den Vogesen, Frankreich, nur wenige Kilometer südlich von Épinal. Es ist Teil des Verteidigungssystems, das Ende des 19. Jahrhunderts zum Schutz der Region errichtet wurde. Gelegen in der Gemeinde Arches, überblickt es das Avre-Tal und befindet sich in der Nähe des Dorfes Pouxeux. Dieses Fort ist ein Zeugnis der lokalen Militärgeschichte und bietet eine beeindruckende natürliche Umgebung.</p>
+        <div class="map-container">
+            <img src="../images/map.png" alt="Lage des Fort d'Arches" id="map">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Für weitere Informationen kontaktieren Sie uns per E-Mail: <a href="mailto:rucherdufort@gmail.com">rucherdufort@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2022 - 2025 Rucher du Fort d'Arches - Alle Rechte vorbehalten.</p>
+        <div>
+            <a href="https://www.youtube.com/@LAbeilleduFortdArches/videos" target="_blank">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
