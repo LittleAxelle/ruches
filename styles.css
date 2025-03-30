@@ -252,10 +252,17 @@ footer a:active {
         font-size: 1.2em; /* Réduction de la taille des icônes */
     }
 
-    /* Ajustement des vidéos YouTube pour éviter le dépassement */
+    .video-container {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
     .video-container iframe {
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 9;
+        display: block;
     }
 }
