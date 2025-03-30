@@ -265,4 +265,10 @@ footer a:active {
         aspect-ratio: 16 / 9;
         display: block;
     }
+    
+    section {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
 }
