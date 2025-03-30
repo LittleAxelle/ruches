@@ -233,3 +233,29 @@ footer a:active {
     display: flex;
     gap: 10px; /* Ajoute un espacement entre les boutons */
 }
+
+@media (max-width: 768px) {
+    /* Ajustement du logo et des icônes de langue pour éviter qu'ils gênent l'en-tête */
+    #logo-departement, #logo-departement-petit {
+        width: 60px; /* Réduction de la taille */
+        top: 5px;  /* Ajustement de la position */
+        left: 5px;
+    }
+
+    .lang-container {
+        top: 5px;
+        right: 5px;
+        gap: 5px; /* Réduction de l'espacement */
+    }
+
+    .lang-toggle {
+        font-size: 1.2em; /* Réduction de la taille des icônes */
+    }
+
+    /* Ajustement des vidéos YouTube pour éviter le dépassement */
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
