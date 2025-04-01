@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Bouton Shine</title>
+    <title>Test Animation</title>
     <style>
-        .btn-shine {
-            display: inline-block;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            padding: 12px 48px;
-            background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
-            background-size: 200% auto;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: shine 3s infinite linear;
-            border: none;
-            cursor: pointer;
-        }
-
         @keyframes shine {
             0% { background-position: 0; }
             60% { background-position: 180px; }
             100% { background-position: 180px; }
         }
+
+        .btn-shine {
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 12px 48px;
+            background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            animation: shine 3s infinite linear;
+            border: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
-    <a href="https://www.youtube.com/@LAbeilleduFortdArches/videos" class="btn-shine" target="_blank">YouTube</a>
+    <button class="btn-shine">Test Shine</button>
 </body>
 </html>
