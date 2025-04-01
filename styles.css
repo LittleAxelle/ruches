@@ -219,6 +219,71 @@ nav ul li a:hover {
     gap: 10px; /* Ajoute un espacement entre les boutons */
 }
 
+.btn-shine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 48px;
+  color: #fff;
+  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+}
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
 @media (max-width: 768px) {
     /* Ajustement du logo et des icônes de langue pour éviter qu'ils gênent l'en-tête */
     #logo-departement, #logo-departement-petit {
@@ -252,21 +317,6 @@ nav ul li a:hover {
         width: 100%;
         height: 100%;
     }
-
-.btn-shine {
-    display: inline-block !important;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    text-decoration: none !important;
-    padding: 12px 48px !important;
-    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%) !important;
-    background-size: 200% auto !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    animation: shine 3s infinite linear !important;
-    border: none !important;
-    cursor: pointer !important;
-}
 
 
 
