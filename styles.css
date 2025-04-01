@@ -211,21 +211,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-footer a {
-    color: #86c566; /* Couleur des liens non visités */
-    text-decoration: none; /* Supprime le soulignement */
-}
-
-footer a:hover {
-    color: red; /* Couleur au survol */
-    text-decoration: underline; /* Souligne le lien au survol */
-}
-
-footer a:active {
-    color: red; /* Couleur du lien actif */
-}
-
 .lang-container {
     position: absolute;
     top: 10px;
