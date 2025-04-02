@@ -94,6 +94,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: static;
+    margin: 10px auto; /* Centre le bouton horizontalement */
     margin-top: 10px; /* Espace au-dessus */
     padding: 12px 24px;
     font-size: 16px;
