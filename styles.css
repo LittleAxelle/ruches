@@ -117,7 +117,7 @@ footer {
     -webkit-text-size-adjust: none;
     font-weight: 600;
     font-size: 16px;
-    text-decoration: none;
+    text-decoration: none !important;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
 }
