@@ -106,7 +106,6 @@ footer {
     font-size: 16px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     padding: 12px 48px;
     color: #fff;
     background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
