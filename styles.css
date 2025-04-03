@@ -319,6 +319,14 @@ nav ul li a:hover {
         font-size: 1.2em; /* Réduction de la taille des icônes */
     }
 
+    .lang-toggle:nth-child(2) {
+    bottom: 60px; /* Décale le deuxième bouton vers la gauche */
+    }
+
+    .lang-toggle:nth-child(3) {
+    bottom: 100px; /* Décale le troisième bouton encore plus à gauche */
+    }
+
     .video-container {
         position: relative;
         width: 100%;
