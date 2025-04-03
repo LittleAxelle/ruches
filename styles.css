@@ -295,6 +295,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
+    .header-top {
+        flex-direction: row;  /* Aligne horizontalement */
+        justify-content: space-between;
+    }
     /* Ajustement du logo et des icônes de langue pour éviter qu'ils gênent l'en-tête */
     #logo-departement, #logo-departement-petit {
         width: 60px; /* Réduction de la taille */
