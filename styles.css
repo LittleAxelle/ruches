@@ -307,15 +307,17 @@ nav ul li a:hover {
     }
 
     .lang-container {
-        display: flex;
+        display: flex !important; 
         flex-direction: column !important; /* Force l'affichage en colonne */
-        align-items: flex-end; /* Aligne les boutons à droite */
-        position: relative; /* Évite les conflits avec position absolue */
+        align-items: flex-end !important; /* Aligne les boutons à droite */
+        gap: 5px !important; /* Espacement entre les boutons */
+        position: relative !important; /* Évite les conflits avec 'absolute' */
     }
 
     .lang-toggle {
-        display: block; /* Rend les boutons empilés */
-        font-size: 1.2em;
+        display: block !important; /* Force l'affichage en bloc */
+        width: auto !important; /* Évite que les boutons prennent toute la largeur */
+        text-align: right !important; /* Aligne le texte à droite si besoin */
     }
 
     .lang-toggle:nth-child(2) {
