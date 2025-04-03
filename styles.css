@@ -307,9 +307,12 @@ nav ul li a:hover {
     }
 
     .lang-container {
-        top: 5px;
-        right: 5px;
-        gap: 5px; /* Réduction de l'espacement */
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        display: flex;
+        flex-direction: column; /* Change l'alignement en colonne */
+        gap: 5px; /* Réduit l'espacement */
     }
 
     .lang-toggle {
