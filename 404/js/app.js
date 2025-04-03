@@ -22,24 +22,24 @@ tsParticles.load("tsparticles", {
       },
       image: [
         {
-          src: "404/images/bee_sx.png",
+          src: "/ruches/404/images/bee_sx.png",
           width: 64,
           height: 64,
         },
         {
-          src: "404/images/bee_dx.png",
+          src: "/ruches/404/images/bee_dx.png",
           width: 64,
           height: 64,
         },
       ],
       images: [
         {
-          src: "404/images/bee_sx.png",
+          src: "/ruches/404/images/bee_sx.png",
           width: 64,
           height: 64,
         },
         {
-          src: "404/images/bee_dx.png",
+          src: "/ruches/404/images/bee_dx.png",
           width: 64,
           height: 64,
         },
